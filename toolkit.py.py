@@ -37,14 +37,23 @@
 #     print(a * b)
 # multiply(5,5)
 
-#step 7
-def print_largest(a, b, c):
-    if a > b and a > c:
-        print(a)
-    elif b > a and b > c:
-        print(b)
-    else:
-     print(c)
-print_largest(3,8,5)
-print_largest(7,2,10)
-print_largest(1,4,4)
+# #step 7
+# def print_largest(a, b, c):
+#     if a > b and a > c:
+#         print(a)
+#     elif b > a and b > c:
+#         print(b)
+#     else:
+#      print(c)
+# print_largest(3,8,5)
+# print_largest(7,2,10)
+# print_largest(1,4,4)
+
+#step 8
+def show_fahrenheit(c):
+    f = (c * 9 / 5) + 32
+    print(f)
+
+show_fahrenheit(0)
+show_fahrenheit(100)
+show_fahrenheit(37.5)
