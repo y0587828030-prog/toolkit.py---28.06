@@ -110,7 +110,16 @@
 # power(3, 3)
 # power(exponent=4, base=2)
 
-#step 4
-def repeat(text, times):
-    print(text * times)
-repeat("hello" , 4)
+# #step 4
+# def repeat(text, times):
+#     print(text * times)
+# repeat("hello " , 4)
+
+#step 5
+def flatten_and_print(nested):
+    for inner_list in nested:
+        for num in inner_list:
+            print(num)
+example_list = [[1, 2], [3, 4], [5]]
+flatten_and_print(example_list)
+
