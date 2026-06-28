@@ -90,14 +90,22 @@
 
 ## part 2 Optional Advanced Basics
 #step 1
-def show_all(*args):
-    print(args)
-    for item in args:
-        print(item)
-show_all("radio", "map", "flashlight")
+# def show_all(*args):
+#     print(args)
+#     for item in args:
+#         print(item)
+# show_all("radio", "map", "flashlight")
 
-#step 2
-def show_profile(**kwargs):
-    for key, value in kwargs.items():
-        print(f"{key}: {value}")
-show_profile(name="Agent X", level=7, active=True)
+# #step 2
+# def show_profile(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f"{key}: {value}")
+# show_profile(name="Agent X", level=7, active=True)
+
+#step 3
+def power(base, exponent=2):
+    result = base ** exponent
+    print(result)
+power(3)   
+power(3, 3)
+power(exponent=4, base=2)
