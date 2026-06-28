@@ -32,3 +32,7 @@ describe(name="agent x.", active= True, level=5)
 def multiply(a, b=2):
     print(a * b)
 multiply(5)
+
+def multiply(a, b=2):
+    print(a * b)
+multiply(5,5)
