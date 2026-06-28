@@ -95,3 +95,9 @@ def show_all(*args):
     for item in args:
         print(item)
 show_all("radio", "map", "flashlight")
+
+#step 2
+def show_profile(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+show_profile(name="Agent X", level=7, active=True)
