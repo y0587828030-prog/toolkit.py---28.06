@@ -102,10 +102,15 @@
 #         print(f"{key}: {value}")
 # show_profile(name="Agent X", level=7, active=True)
 
-#step 3
-def power(base, exponent=2):
-    result = base ** exponent
-    print(result)
-power(3)   
-power(3, 3)
-power(exponent=4, base=2)
+# #step 3
+# def power(base, exponent=2):
+#     result = base ** exponent
+#     print(result)
+# power(3)   
+# power(3, 3)
+# power(exponent=4, base=2)
+
+#step 4
+def repeat(text, times):
+    print(text * times)
+repeat("hello" , 4)
