@@ -26,4 +26,9 @@ greet_with_title("yehosh", "commander")
 #step 5
 def describe(name, level, active):
     print("name:", name, "level:", level , "active:" ,active )
-describe(name="agent x", active= True, level=5)
+describe(name="agent x.", active= True, level=5)
+
+#step 6
+def multiply(a, b=2):
+    print(a * b)
+multiply(5)
