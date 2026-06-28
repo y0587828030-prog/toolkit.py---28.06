@@ -67,23 +67,31 @@
 # check_even(4)
 # check_even(7)
 
-#step 10
+# #step 10
 
-def summarize(items):
-   total = 0
-   smallest = items[0]
-   largern= items[0]
+# def summarize(items):
+#    total = 0
+#    smallest = items[0]
+#    largern= items[0]
 
-   for num in items:
-      total +=num
-      if num < smallest:
-         smallest = num
-      if num > largern:
-           largern = num
+#    for num in items:
+#       total +=num
+#       if num < smallest:
+#          smallest = num
+#       if num > largern:
+#            largern = num
 
-   print(f"sum :{total}")
-   print(f"smallest: {smallest}")
-   print(f"largern : {largern}")
+#    print(f"sum :{total}")
+#    print(f"smallest: {smallest}")
+#    print(f"largern : {largern}")
 
-tast_list = [4, 9, 2, 10, 3]
-summarize(tast_list)
+# tast_list = [4, 9, 2, 10, 3]
+# summarize(tast_list)
+
+## part 2 Optional Advanced Basics
+#step 1
+def show_all(*args):
+    print(args)
+    for item in args:
+        print(item)
+show_all("radio", "map", "flashlight")
