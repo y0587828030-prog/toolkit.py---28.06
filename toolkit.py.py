@@ -9,7 +9,12 @@
 #     print(a + b)
 # add(3, 4)
 
-#step 3
-def square(n):
-    print(n**2)
-square(12)
+# #step 3
+# def square(n):
+#     print(n**2)
+# square(12)
+
+#step 4
+def greet_with_title(name, title="Agent"):
+    print("hello",title, name)
+greet_with_title("yehosh")
