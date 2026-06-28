@@ -15,10 +15,13 @@
 # square(12)
 
 #step 4
-def greet_with_title(name, title="Agent"):
+def greet_with_title(name, title= "agent"):
     print("hello",title, name)
 greet_with_title("yehosh")
 
-def greet_with_title(name, title="commander"):
+def greet_with_title(name, title="agent"):
     print("hello",title, name)
-greet_with_title("yehosh")
+greet_with_title("yehosh", "commander")
+
+#step 5
+# def 
