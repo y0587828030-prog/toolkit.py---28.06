@@ -12,4 +12,4 @@
 #step 3
 def square(n):
     print(n**2)
-square(5)
+square(12)
