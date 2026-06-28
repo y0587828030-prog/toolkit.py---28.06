@@ -49,11 +49,20 @@
 # print_largest(7,2,10)
 # print_largest(1,4,4)
 
-#step 8
-def show_fahrenheit(c):
-    f = (c * 9 / 5) + 32
-    print(f)
+# #step 8
+# def show_fahrenheit(c):
+#     f = (c * 9 / 5) + 32
+#     print(f)
 
-show_fahrenheit(0)
-show_fahrenheit(100)
-show_fahrenheit(37.5)
+# show_fahrenheit(0)
+# show_fahrenheit(100)
+# show_fahrenheit(37.5)
+
+#step 9
+def check_even(n):
+    if n % 2 == 0:
+        print(n, "- number is even ")
+    else: 
+        print(n, "- number is odd ")
+check_even(4)
+check_even(7)
