@@ -58,11 +58,32 @@
 # show_fahrenheit(100)
 # show_fahrenheit(37.5)
 
-#step 9
-def check_even(n):
-    if n % 2 == 0:
-        print(n, "- number is even ")
-    else: 
-        print(n, "- number is odd ")
-check_even(4)
-check_even(7)
+# #step 9
+# def check_even(n):
+#     if n % 2 == 0:
+#         print(n, "- number is even ")
+#     else: 
+#         print(n, "- number is odd ")
+# check_even(4)
+# check_even(7)
+
+#step 10
+
+def summarize(items):
+   total = 0
+   smallest = items[0]
+   largern= items[0]
+
+   for num in items:
+      total +=num
+      if num < smallest:
+         smallest = num
+      if num > largern:
+           largern = num
+
+   print(f"sum :{total}")
+   print(f"smallest: {smallest}")
+   print(f"largern : {largern}")
+
+tast_list = [4, 9, 2, 10, 3]
+summarize(tast_list)
